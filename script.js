@@ -1,8 +1,14 @@
 function shortcut(s1, s2) {
   // your code here
-	s1.slice(0,1);
-	s2.slice(0,1);
-	return s1,s2;
+if (s1 ===' ' || s2 ===' ') {
+    let a =	s1.slice(0,0);
+    let b =	s2.slice(0,0);
+    return a + b;
+  } else { 
+    let a=	s1.slice(0,1);
+    let b=	s2.slice(0,1);
+    return a + b;
+  }
 }
 
 // Do not change the code below.
