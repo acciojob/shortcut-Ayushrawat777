@@ -1,9 +1,7 @@
 function shortcut(s1, s2) {
   // your code here
 if (s1 ===' ' || s2 ===' ') {
-    let a =	s1.slice(0,0);
-    let b =	s2.slice(0,0);
-    return a + b;
+   return ' ';
   } else { 
     let a=	s1.slice(0,1);
     let b=	s2.slice(0,1);
